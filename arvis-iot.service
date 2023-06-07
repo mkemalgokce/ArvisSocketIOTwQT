@@ -1,0 +1,15 @@
+[Unit]
+Description=Arvis IOT Daemon
+[Service]
+User=root
+#Code to execute
+#Can be the path to an executable or code itself
+WorkingDirectory=/home/mkg/ArvisWorkspace/ArvisIOTServer/debug
+ExecStart=/home/mkg/ArvisWorkspace/ArvisIOTServer/debug/ArvisIOTServer
+ExecReload=/bin/kill -HUP $MAINPID
+User=root
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=arvis-iot-daemon
+[Install]
+WantedBy=multi-user.target
