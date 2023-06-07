@@ -1,5 +1,5 @@
 # ArvisSocketIOTwQT
-It's a arvis socket program for iot devices.
+It's an ArVis socket program for iot devices.
 ## Installation
 
 ### Dependencies
