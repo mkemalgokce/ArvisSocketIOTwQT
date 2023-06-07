@@ -2,6 +2,10 @@
 It's a arvis socket program for iot devices.
 ## Installation
 
+### Dependencies
+- WiringPi
+- QtWebSockets
+
 ### Build 
 
 - ``` mkdir build && cd build ```
